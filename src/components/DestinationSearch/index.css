@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    margin-top: 50px;
+  }
+}
+.heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 42px;
+  }
+}
+.list-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+@media screen and (min-width: 768px) {
+  .list-items {
+    align-items: flex-start;
+  }
+}
+.search-input {
+  background-color: #f1f5f9;
+  font-family: 'Roboto';
+  font-weight: bold;
+  border: none;
+  outline: none;
+}
+.search-icon {
+  height: 20px;
+  width: 20px;
+}
+.search-input-container {
+  display: flex;
+  align-items: center;
+  background-color: #f1f5f9;
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  margin-left: 15px;
+}

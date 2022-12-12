@@ -1,0 +1,13 @@
+/* Write your CSS here */
+.list-item {
+  padding: 12px;
+  list-style-type: none;
+}
+.list-img {
+  height: 220px;
+  width: 350px;
+}
+.paragraph {
+  font-family: 'Open Sans';
+  font-weight: bold;
+}
